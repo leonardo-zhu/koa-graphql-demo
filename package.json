@@ -7,13 +7,16 @@
     "start": "ts-node src/index.ts && nodemon"
   },
   "dependencies": {
+    "@apollo/client": "3.6.9",
     "apollo-server-core": "3.10.1",
     "apollo-server-koa": "3.10.1",
+    "cross-fetch": "3.1.5",
     "graphql": "16.6.0",
     "graphql-tools": "8.3.3",
     "koa": "2.13.4",
     "koa-graphql": "0.12.0",
-    "koa-mount": "4.0.0"
+    "koa-mount": "4.0.0",
+    "react": "18.2.0"
   },
   "devDependencies": {
     "@types/koa": "2.13.5",
