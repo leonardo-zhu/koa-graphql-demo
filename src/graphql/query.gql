@@ -1,0 +1,12 @@
+query GetPersonInfo($name: String!) {
+    person (name: $name) {
+        name
+        age
+        address {
+            street
+            city
+            state
+            zip
+        }
+    }
+}
